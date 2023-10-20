@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Web Application</title>
+</head>
+<body>
+        <!-- Navigation include -->
+    {% include 'navbar.html' %}
+    
+    {% block content %}
+        <!-- Block content from other views -->
+    {% endblock %}
+
+</body>
+</html>
